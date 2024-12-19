@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" parallel="true" preserve-order="true" thread-count="5" name="Chrome Tests">
+        <classes>
+            <class name="dockerTest.ChromeTest1"/>
+            <class name="dockerTest.ChromeTest2"/>
+            <class name="dockerTest.ChromeTest3"/>
+        </classes>
+    </test>
+</suite>
