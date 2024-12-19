@@ -1052,3 +1052,311 @@ selenium-hub  | 2024-12-19 03:41:32,162 INFO waiting for selenium-grid-hub to di
 selenium-hub  | 2024-12-19 03:41:33,165 WARN stopped: selenium-grid-hub (terminated by SIGTERM)
 selenium-hub  | Shutdown complete
 [Kselenium-hub exited with code 143
+Attaching to chrome-1, edge-1, firefox-1, selenium-hub
+selenium-hub  | 2024-12-19 05:41:15,657 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub  | 2024-12-19 05:41:15,684 INFO RPC interface 'supervisor' initialized
+selenium-hub  | 2024-12-19 05:41:15,686 INFO supervisord started with pid 8
+firefox-1     | 2024-12-19 05:41:16,148 INFO Included extra file "/etc/supervisor/conf.d/firefox-cleanup.conf" during parsing
+firefox-1     | 2024-12-19 05:41:16,150 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+firefox-1     | 2024-12-19 05:41:16,176 INFO RPC interface 'supervisor' initialized
+firefox-1     | 2024-12-19 05:41:16,178 INFO supervisord started with pid 8
+selenium-hub  | 2024-12-19 05:41:16,692 INFO spawned: 'selenium-grid-hub' with pid 9
+chrome-3      | 2024-12-19 05:41:16,695 INFO Included extra file "/etc/supervisor/conf.d/chrome-cleanup.conf" during parsing
+chrome-1      | 2024-12-19 05:41:16,696 INFO Included extra file "/etc/supervisor/conf.d/chrome-cleanup.conf" during parsing
+chrome-1      | 2024-12-19 05:41:16,696 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-3      | 2024-12-19 05:41:16,695 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+selenium-hub  | Starting Selenium Grid Hub...
+selenium-hub  | 2024-12-19 05:41:16,702 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub  | Appending Selenium option: --log-level INFO
+selenium-hub  | Appending Selenium option: --http-logs false
+selenium-hub  | Appending Selenium option: --structured-logs false
+selenium-hub  | Appending Selenium option: --reject-unsupported-caps false
+selenium-hub  | Tracing is enabled
+selenium-hub  | Classpath will be enriched with these external jars :  --ext /external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.42.1/opentelemetry-exporter-otlp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-netty/1.66.0/grpc-netty-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.113.Final/netty-codec-http-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.42.1/opentelemetry-exporter-otlp-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.42.1/opentelemetry-exporter-sender-okhttp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-api/1.66.0/grpc-api-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-core/1.66.0/grpc-core-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.jar:/external_jars/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/external_jars/https/repo1.maven.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.113.Final/netty-transport-native-unix-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-util/1.66.0/grpc-util-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.113.Final/netty-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.113.Final/netty-buffer-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.113.Final/netty-transport-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.113.Final/netty-codec-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.113.Final/netty-handler-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.42.1/opentelemetry-exporter-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/external_jars/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.66.0/grpc-context-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/external_jars/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.113.Final/netty-resolver-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+selenium-hub  | List arguments for OpenTelemetry:  -Dotel.resource.attributes=service.name=selenium-hub -Dotel.traces.exporter=otlp -Dotel.java.global-autoconfigure.enabled=true
+chrome-1      | 2024-12-19 05:41:16,717 INFO RPC interface 'supervisor' initialized
+chrome-1      | 2024-12-19 05:41:16,719 INFO supervisord started with pid 8
+chrome-3      | 2024-12-19 05:41:16,723 INFO RPC interface 'supervisor' initialized
+chrome-3      | 2024-12-19 05:41:16,725 INFO supervisord started with pid 8
+edge-1        | 2024-12-19 05:41:16,949 INFO Included extra file "/etc/supervisor/conf.d/edge-cleanup.conf" during parsing
+edge-1        | 2024-12-19 05:41:16,950 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+edge-1        | 2024-12-19 05:41:16,982 INFO RPC interface 'supervisor' initialized
+edge-1        | 2024-12-19 05:41:16,983 INFO supervisord started with pid 8
+firefox-1     | 2024-12-19 05:41:17,193 INFO spawned: 'xvfb' with pid 9
+firefox-1     | 2024-12-19 05:41:17,227 INFO spawned: 'vnc' with pid 10
+firefox-1     | 2024-12-19 05:41:17,253 INFO spawned: 'novnc' with pid 16
+firefox-1     | 2024-12-19 05:41:17,267 INFO spawned: 'selenium-node' with pid 22
+firefox-1     | 2024-12-19 05:41:17,279 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-1      | 2024-12-19 05:41:17,747 INFO spawned: 'xvfb' with pid 9
+chrome-3      | 2024-12-19 05:41:17,753 INFO spawned: 'xvfb' with pid 9
+chrome-3      | 2024-12-19 05:41:17,862 INFO spawned: 'vnc' with pid 15
+chrome-1      | 2024-12-19 05:41:17,886 INFO spawned: 'vnc' with pid 10
+chrome-3      | 2024-12-19 05:41:17,907 INFO spawned: 'novnc' with pid 19
+chrome-1      | 2024-12-19 05:41:18,051 INFO spawned: 'novnc' with pid 21
+chrome-3      | 2024-12-19 05:41:18,083 INFO spawned: 'selenium-node' with pid 27
+chrome-3      | 2024-12-19 05:41:18,089 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+edge-1        | 2024-12-19 05:41:18,081 INFO spawned: 'xvfb' with pid 9
+edge-1        | 2024-12-19 05:41:18,202 INFO spawned: 'vnc' with pid 10
+edge-1        | 2024-12-19 05:41:18,265 INFO spawned: 'novnc' with pid 13
+chrome-1      | 2024-12-19 05:41:18,294 INFO spawned: 'selenium-node' with pid 25
+chrome-1      | 2024-12-19 05:41:18,342 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+edge-1        | 2024-12-19 05:41:18,525 INFO spawned: 'selenium-node' with pid 22
+edge-1        | 2024-12-19 05:41:18,648 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-1      | 2024-12-19 05:41:18,764 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-1      | 2024-12-19 05:41:18,774 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-12-19 05:41:18,953 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-12-19 05:41:18,953 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | 2024-12-19 05:41:18,953 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | 2024-12-19 05:41:18,996 INFO Included extra file "/etc/supervisor/conf.d/chrome-cleanup.conf" during parsing
+chrome-2      | 2024-12-19 05:41:18,997 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-2      | 2024-12-19 05:41:19,068 INFO RPC interface 'supervisor' initialized
+chrome-2      | 2024-12-19 05:41:19,071 INFO supervisord started with pid 8
+edge-1        | 2024-12-19 05:41:19,120 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-12-19 05:41:19,120 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+edge-1        | 2024-12-19 05:41:19,224 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | Appending Selenium option: --session-timeout 300
+firefox-1     | Appending Selenium option: --heartbeat-period 30
+firefox-1     | Appending Selenium option: --log-level INFO
+firefox-1     | Appending Selenium option: --http-logs false
+firefox-1     | Appending Selenium option: --structured-logs false
+firefox-1     | Generating Selenium Config
+firefox-1     | Configuring server...
+firefox-1     | Setting up SE_NODE_HOST...
+firefox-1     | Setting up SE_NODE_PORT...
+firefox-1     | Setting up SE_NODE_GRID_URL...
+chrome-3      | 2024-12-19 05:41:19,388 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | 2024-12-19 05:41:19,388 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | 2024-12-19 05:41:19,388 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+firefox-1     | Tracing is enabled
+firefox-1     | Classpath will be enriched with these external jars :  --ext /external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.42.1/opentelemetry-exporter-otlp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-netty/1.66.0/grpc-netty-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.113.Final/netty-codec-http-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.42.1/opentelemetry-exporter-otlp-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.42.1/opentelemetry-exporter-sender-okhttp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-api/1.66.0/grpc-api-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-core/1.66.0/grpc-core-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.jar:/external_jars/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/external_jars/https/repo1.maven.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.113.Final/netty-transport-native-unix-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-util/1.66.0/grpc-util-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.113.Final/netty-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.113.Final/netty-buffer-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.113.Final/netty-transport-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.113.Final/netty-codec-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.113.Final/netty-handler-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.42.1/opentelemetry-exporter-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/external_jars/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.66.0/grpc-context-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/external_jars/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.113.Final/netty-resolver-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+firefox-1     | List arguments for OpenTelemetry:  -Dotel.resource.attributes=service.name=selenium-node-firefox -Dotel.traces.exporter=otlp -Dotel.java.global-autoconfigure.enabled=true
+firefox-1     | Selenium Grid Node configuration: 
+firefox-1     | [events]
+firefox-1     | publish = "tcp://selenium-hub:4442"
+firefox-1     | subscribe = "tcp://selenium-hub:4443"
+firefox-1     | 
+firefox-1     | [node]
+firefox-1     | session-timeout = "300"
+firefox-1     | override-max-sessions = false
+firefox-1     | detect-drivers = false
+firefox-1     | drain-after-session-count = 0
+firefox-1     | max-sessions = 1
+firefox-1     | 
+firefox-1     | [[node.driver-configuration]]
+firefox-1     | display-name = "firefox"
+firefox-1     | stereotype = '{"browserName": "firefox", "browserVersion": "131.0", "platformName": "Linux", "moz:firefoxOptions": {"binary": "/usr/bin/firefox"}, "se:containerName": ""}'
+firefox-1     | max-sessions = 1
+firefox-1     |     
+firefox-1     | Starting Selenium Grid Node...
+chrome-1      | 2024-12-19 05:41:19,571 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-3      | Appending Selenium option: --session-timeout 300
+chrome-3      | Appending Selenium option: --heartbeat-period 30
+chrome-3      | Appending Selenium option: --log-level INFO
+chrome-3      | Appending Selenium option: --http-logs false
+chrome-3      | Appending Selenium option: --structured-logs false
+chrome-3      | Generating Selenium Config
+chrome-3      | Configuring server...
+chrome-3      | Setting up SE_NODE_HOST...
+chrome-3      | Setting up SE_NODE_PORT...
+chrome-3      | Setting up SE_NODE_GRID_URL...
+chrome-1      | Appending Selenium option: --session-timeout 300
+chrome-1      | Appending Selenium option: --heartbeat-period 30
+chrome-1      | Appending Selenium option: --log-level INFO
+chrome-3      | Tracing is enabled
+chrome-3      | Classpath will be enriched with these external jars :  --ext /external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.42.1/opentelemetry-exporter-otlp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-netty/1.66.0/grpc-netty-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.113.Final/netty-codec-http-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.42.1/opentelemetry-exporter-otlp-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.42.1/opentelemetry-exporter-sender-okhttp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-api/1.66.0/grpc-api-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-core/1.66.0/grpc-core-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.jar:/external_jars/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/external_jars/https/repo1.maven.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.113.Final/netty-transport-native-unix-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-util/1.66.0/grpc-util-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.113.Final/netty-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.113.Final/netty-buffer-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.113.Final/netty-transport-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.113.Final/netty-codec-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.113.Final/netty-handler-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.42.1/opentelemetry-exporter-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/external_jars/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.66.0/grpc-context-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/external_jars/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.113.Final/netty-resolver-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+chrome-3      | List arguments for OpenTelemetry:  -Dotel.resource.attributes=service.name=selenium-node-chrome -Dotel.traces.exporter=otlp -Dotel.java.global-autoconfigure.enabled=true
+chrome-1      | Appending Selenium option: --http-logs false
+chrome-3      | Selenium Grid Node configuration: 
+chrome-1      | Appending Selenium option: --structured-logs false
+chrome-3      | [events]
+chrome-1      | Generating Selenium Config
+chrome-3      | publish = "tcp://selenium-hub:4442"
+chrome-3      | subscribe = "tcp://selenium-hub:4443"
+chrome-3      | 
+chrome-3      | [node]
+chrome-3      | session-timeout = "300"
+chrome-3      | override-max-sessions = false
+chrome-3      | detect-drivers = false
+chrome-3      | drain-after-session-count = 0
+chrome-3      | max-sessions = 1
+chrome-3      | 
+chrome-3      | [[node.driver-configuration]]
+chrome-3      | display-name = "chrome"
+chrome-3      | stereotype = '{"browserName": "chrome", "browserVersion": "129.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}, "se:containerName": ""}'
+chrome-3      | max-sessions = 1
+chrome-3      |     
+chrome-3      | Starting Selenium Grid Node...
+chrome-1      | Configuring server...
+chrome-1      | Setting up SE_NODE_HOST...
+chrome-1      | Setting up SE_NODE_PORT...
+chrome-1      | Setting up SE_NODE_GRID_URL...
+edge-1        | Appending Selenium option: --session-timeout 300
+edge-1        | Appending Selenium option: --heartbeat-period 30
+edge-1        | Appending Selenium option: --log-level INFO
+edge-1        | Appending Selenium option: --http-logs false
+edge-1        | Appending Selenium option: --structured-logs false
+edge-1        | Generating Selenium Config
+edge-1        | Configuring server...
+edge-1        | Setting up SE_NODE_HOST...
+edge-1        | Setting up SE_NODE_PORT...
+edge-1        | Setting up SE_NODE_GRID_URL...
+chrome-1      | Tracing is enabled
+chrome-1      | Classpath will be enriched with these external jars :  --ext /external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.42.1/opentelemetry-exporter-otlp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-netty/1.66.0/grpc-netty-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.113.Final/netty-codec-http-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.42.1/opentelemetry-exporter-otlp-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.42.1/opentelemetry-exporter-sender-okhttp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-api/1.66.0/grpc-api-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-core/1.66.0/grpc-core-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.jar:/external_jars/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/external_jars/https/repo1.maven.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.113.Final/netty-transport-native-unix-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-util/1.66.0/grpc-util-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.113.Final/netty-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.113.Final/netty-buffer-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.113.Final/netty-transport-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.113.Final/netty-codec-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.113.Final/netty-handler-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.42.1/opentelemetry-exporter-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/external_jars/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.66.0/grpc-context-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/external_jars/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.113.Final/netty-resolver-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+chrome-1      | List arguments for OpenTelemetry:  -Dotel.resource.attributes=service.name=selenium-node-chrome -Dotel.traces.exporter=otlp -Dotel.java.global-autoconfigure.enabled=true
+chrome-1      | Selenium Grid Node configuration: 
+chrome-1      | [events]
+chrome-1      | publish = "tcp://selenium-hub:4442"
+edge-1        | Tracing is enabled
+chrome-1      | subscribe = "tcp://selenium-hub:4443"
+chrome-1      | 
+chrome-1      | [node]
+chrome-1      | session-timeout = "300"
+chrome-1      | override-max-sessions = false
+edge-1        | Classpath will be enriched with these external jars :  --ext /external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.42.1/opentelemetry-exporter-otlp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-netty/1.66.0/grpc-netty-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.113.Final/netty-codec-http-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.42.1/opentelemetry-exporter-otlp-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.42.1/opentelemetry-exporter-sender-okhttp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-api/1.66.0/grpc-api-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-core/1.66.0/grpc-core-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.jar:/external_jars/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/external_jars/https/repo1.maven.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.113.Final/netty-transport-native-unix-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-util/1.66.0/grpc-util-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.113.Final/netty-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.113.Final/netty-buffer-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.113.Final/netty-transport-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.113.Final/netty-codec-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.113.Final/netty-handler-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.42.1/opentelemetry-exporter-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/external_jars/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.66.0/grpc-context-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/external_jars/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.113.Final/netty-resolver-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+chrome-1      | detect-drivers = false
+edge-1        | List arguments for OpenTelemetry:  -Dotel.resource.attributes=service.name=selenium-node-edge -Dotel.traces.exporter=otlp -Dotel.java.global-autoconfigure.enabled=true
+chrome-1      | drain-after-session-count = 0
+chrome-1      | max-sessions = 1
+chrome-1      | 
+chrome-1      | [[node.driver-configuration]]
+chrome-1      | display-name = "chrome"
+edge-1        | Selenium Grid Node configuration: 
+chrome-1      | stereotype = '{"browserName": "chrome", "browserVersion": "129.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}, "se:containerName": ""}'
+chrome-1      | max-sessions = 1
+chrome-1      |     
+chrome-1      | Starting Selenium Grid Node...
+edge-1        | [events]
+edge-1        | publish = "tcp://selenium-hub:4442"
+edge-1        | subscribe = "tcp://selenium-hub:4443"
+edge-1        | 
+edge-1        | [node]
+edge-1        | session-timeout = "300"
+edge-1        | override-max-sessions = false
+edge-1        | detect-drivers = false
+edge-1        | drain-after-session-count = 0
+edge-1        | max-sessions = 1
+edge-1        | 
+edge-1        | [[node.driver-configuration]]
+edge-1        | display-name = "MicrosoftEdge"
+edge-1        | stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "129.0", "platformName": "Linux", "ms:edgeOptions": {"binary": "/usr/bin/microsoft-edge"}, "se:containerName": ""}'
+edge-1        | max-sessions = 1
+edge-1        |     
+edge-1        | Starting Selenium Grid Node...
+chrome-2      | 2024-12-19 05:41:20,110 INFO spawned: 'xvfb' with pid 9
+chrome-2      | 2024-12-19 05:41:20,115 INFO spawned: 'vnc' with pid 10
+chrome-2      | 2024-12-19 05:41:20,213 INFO spawned: 'novnc' with pid 17
+chrome-2      | 2024-12-19 05:41:20,236 INFO spawned: 'selenium-node' with pid 20
+chrome-2      | 2024-12-19 05:41:20,241 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-2      | Appending Selenium option: --session-timeout 300
+chrome-2      | Appending Selenium option: --heartbeat-period 30
+chrome-2      | Appending Selenium option: --log-level INFO
+chrome-2      | Appending Selenium option: --http-logs false
+chrome-2      | Appending Selenium option: --structured-logs false
+chrome-2      | Generating Selenium Config
+chrome-2      | Configuring server...
+chrome-2      | Setting up SE_NODE_HOST...
+chrome-2      | Setting up SE_NODE_PORT...
+chrome-2      | Setting up SE_NODE_GRID_URL...
+chrome-5      | 2024-12-19 05:41:21,017 INFO Included extra file "/etc/supervisor/conf.d/chrome-cleanup.conf" during parsing
+chrome-5      | 2024-12-19 05:41:21,027 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+chrome-5      | 2024-12-19 05:41:21,063 INFO RPC interface 'supervisor' initialized
+chrome-5      | 2024-12-19 05:41:21,084 INFO supervisord started with pid 8
+chrome-2      | 2024-12-19 05:41:21,097 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | Tracing is enabled
+chrome-2      | 2024-12-19 05:41:21,192 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | 2024-12-19 05:41:21,193 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-2      | Classpath will be enriched with these external jars :  --ext /external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp/1.42.1/opentelemetry-exporter-otlp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-netty/1.66.0/grpc-netty-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.113.Final/netty-codec-http-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.42.1/opentelemetry-sdk-trace-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.42.1/opentelemetry-sdk-metrics-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.42.1/opentelemetry-sdk-logs-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-otlp-common/1.42.1/opentelemetry-exporter-otlp-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-sender-okhttp/1.42.1/opentelemetry-exporter-sender-okhttp-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.42.1/opentelemetry-sdk-extension-autoconfigure-spi-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-api/1.66.0/grpc-api-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.100.Final/netty-codec-http2-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-core/1.66.0/grpc-core-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.100.Final/netty-handler-proxy-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/guava/33.2.1-android/guava-33.2.1-android.jar:/external_jars/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.28.0/error_prone_annotations-2.28.0.jar:/external_jars/https/repo1.maven.org/maven2/io/perfmark/perfmark-api/0.27.0/perfmark-api-0.27.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.113.Final/netty-transport-native-unix-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-util/1.66.0/grpc-util-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.113.Final/netty-common-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.113.Final/netty-buffer-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.113.Final/netty-transport-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.113.Final/netty-codec-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.113.Final/netty-handler-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api/1.42.1/opentelemetry-api-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.42.1/opentelemetry-sdk-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-api-incubator/1.42.1-alpha/opentelemetry-api-incubator-1.42.1-alpha.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-common/1.42.1/opentelemetry-exporter-common-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-sdk/1.42.1/opentelemetry-sdk-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/external_jars/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.24/animal-sniffer-annotations-1.24.jar:/external_jars/https/repo1.maven.org/maven2/io/grpc/grpc-context/1.66.0/grpc-context-1.66.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.100.Final/netty-codec-socks-4.1.100.Final.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/external_jars/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/external_jars/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/external_jars/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/external_jars/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.113.Final/netty-resolver-4.1.113.Final.jar:/external_jars/https/repo1.maven.org/maven2/io/opentelemetry/opentelemetry-context/1.42.1/opentelemetry-context-1.42.1.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.10/kotlin-stdlib-jdk8-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.10/kotlin-stdlib-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.10/kotlin-stdlib-jdk7-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar:/external_jars/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar
+chrome-2      | List arguments for OpenTelemetry:  -Dotel.resource.attributes=service.name=selenium-node-chrome -Dotel.traces.exporter=otlp -Dotel.java.global-autoconfigure.enabled=true
+chrome-2      | Selenium Grid Node configuration: 
+chrome-2      | [events]
+chrome-2      | publish = "tcp://selenium-hub:4442"
+chrome-2      | subscribe = "tcp://selenium-hub:4443"
+chrome-2      | 
+chrome-2      | [node]
+chrome-2      | session-timeout = "300"
+chrome-2      | override-max-sessions = false
+chrome-2      | detect-drivers = false
+chrome-2      | drain-after-session-count = 0
+chrome-2      | max-sessions = 1
+chrome-2      | 
+chrome-2      | [[node.driver-configuration]]
+chrome-2      | display-name = "chrome"
+chrome-2      | stereotype = '{"browserName": "chrome", "browserVersion": "129.0", "platformName": "Linux", "goog:chromeOptions": {"binary": "/usr/bin/google-chrome"}, "se:containerName": ""}'
+chrome-2      | max-sessions = 1
+chrome-2      |     
+chrome-2      | Starting Selenium Grid Node...
+chrome-5      | 2024-12-19 05:41:22,339 INFO spawned: 'xvfb' with pid 9
+chrome-5      | 2024-12-19 05:41:22,416 INFO spawned: 'vnc' with pid 10
+chrome-5      | 2024-12-19 05:41:22,514 INFO spawned: 'novnc' with pid 12
+chrome-5      | 2024-12-19 05:41:22,636 INFO spawned: 'selenium-node' with pid 19
+chrome-5      | 2024-12-19 05:41:22,882 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+chrome-5      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-5      | 2024-12-19 05:41:23,189 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+chrome-5      | 2024-12-19 05:41:23,189 WARN received SIGTERM indicating exit request
+chrome-5      | 2024-12-19 05:41:23,190 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-5      | 2024-12-19 05:41:23,231 WARN stopped: selenium-node (terminated by SIGTERM)
+chrome-5      | 2024-12-19 05:41:23,234 WARN stopped: novnc (terminated by SIGTERM)
+chrome-5      | 2024-12-19 05:41:23,235 WARN stopped: vnc (terminated by SIGTERM)
+chrome-5      | 2024-12-19 05:41:23,237 WARN stopped: xvfb (terminated by SIGTERM)
+chrome-3      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+firefox-1     | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+edge-1        | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-1      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-2      | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+chrome-5      | Shutdown complete
+chrome-2      | 2024-12-19 05:41:23,944 WARN received SIGTERM indicating exit request
+chrome-2      | 2024-12-19 05:41:23,959 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+firefox-1     | 2024-12-19 05:41:23,969 WARN received SIGTERM indicating exit request
+firefox-1     | 2024-12-19 05:41:23,981 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-3      | 2024-12-19 05:41:24,014 WARN received SIGTERM indicating exit request
+chrome-3      | 2024-12-19 05:41:24,028 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-1      | 2024-12-19 05:41:24,045 WARN received SIGTERM indicating exit request
+chrome-1      | 2024-12-19 05:41:24,056 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+edge-1        | 2024-12-19 05:41:24,083 WARN received SIGTERM indicating exit request
+edge-1        | 2024-12-19 05:41:24,088 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+chrome-1      | 2024-12-19 05:41:25,321 WARN stopped: selenium-node (terminated by SIGTERM)
+chrome-2      | 2024-12-19 05:41:25,328 WARN stopped: selenium-node (terminated by SIGTERM)
+edge-1        | 2024-12-19 05:41:25,337 WARN stopped: selenium-node (terminated by SIGTERM)
+chrome-3      | 2024-12-19 05:41:25,366 WARN stopped: selenium-node (terminated by SIGTERM)
+firefox-1     | Dec 19, 2024 5:41:24 AM org.openqa.selenium.grid.config.TomlConfig <init>
+firefox-1     | WARNING: Please use quotes to denote strings. Upcoming TOML parser will require this and unquoted strings will throw an error in the future
+firefox-1     | 2024-12-19 05:41:25,386 WARN stopped: selenium-node (terminated by SIGTERM)
+selenium-hub  | Dec 19, 2024 5:41:24 AM org.openqa.selenium.grid.config.TomlConfig <init>
+selenium-hub  | WARNING: Please use quotes to denote strings. Upcoming TOML parser will require this and unquoted strings will throw an error in the future
+chrome-3      | 2024-12-19 05:41:25,508 WARN stopped: novnc (terminated by SIGTERM)
+chrome-3      | 2024-12-19 05:41:25,510 WARN stopped: vnc (terminated by SIGTERM)
+edge-1        | 2024-12-19 05:41:25,522 WARN stopped: novnc (terminated by SIGTERM)
+chrome-1      | 2024-12-19 05:41:25,533 WARN stopped: novnc (terminated by SIGTERM)
+chrome-2      | 2024-12-19 05:41:25,542 WARN stopped: novnc (terminated by SIGTERM)
+edge-1        | 2024-12-19 05:41:25,541 WARN stopped: vnc (terminated by SIGTERM)
+chrome-1      | 2024-12-19 05:41:25,539 WARN stopped: vnc (terminated by SIGTERM)
+firefox-1     | 2024-12-19 05:41:25,544 WARN stopped: novnc (terminated by SIGTERM)
+chrome-2      | 2024-12-19 05:41:25,552 WARN stopped: vnc (terminated by SIGTERM)
+firefox-1     | 2024-12-19 05:41:25,563 WARN stopped: vnc (terminated by SIGTERM)
+chrome-3      | 2024-12-19 05:41:25,650 WARN stopped: xvfb (terminated by SIGTERM)
+firefox-1     | 2024-12-19 05:41:25,668 WARN stopped: xvfb (terminated by SIGTERM)
+edge-1        | 2024-12-19 05:41:25,659 WARN stopped: xvfb (terminated by SIGTERM)
+chrome-2      | 2024-12-19 05:41:25,673 WARN stopped: xvfb (terminated by SIGTERM)
+chrome-1      | 2024-12-19 05:41:25,682 WARN stopped: xvfb (terminated by SIGTERM)
+selenium-hub  | 05:41:25.736 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub  | 05:41:25.816 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+chrome-3      | Shutdown complete
+edge-1        | Shutdown complete
+chrome-2      | Shutdown complete
+firefox-1     | Shutdown complete
+chrome-1      | Shutdown complete
+[Kchrome-3 exited with code 143
+selenium-hub  | 05:41:27.828 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.20.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.20.0.2:4443]
+[Kfirefox-1 exited with code 143
+selenium-hub  | 05:41:28.023 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.20.0.2:4442 and tcp://172.20.0.2:4443
+selenium-hub  | 05:41:28.096 INFO [UnboundZmqEventBus.<init>] - Sockets created
+[Kchrome-1 exited with code 143
+[Kchrome-2 exited with code 143
+[Kedge-1 exited with code 143
+selenium-hub  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+selenium-hub  | 2024-12-19 05:41:29,141 WARN received SIGTERM indicating exit request
+selenium-hub  | 2024-12-19 05:41:29,146 INFO waiting for selenium-grid-hub to die
+selenium-hub  | 05:41:29.134 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+selenium-hub  | 2024-12-19 05:41:30,152 WARN stopped: selenium-grid-hub (terminated by SIGTERM)
+selenium-hub  | Shutdown complete
+[Kselenium-hub exited with code 143
