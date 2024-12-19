@@ -24,7 +24,7 @@ public class BaseTest {
 
     @AfterTest
     public void tearDown() throws IOException, InterruptedException {
-        BaseTest.dockerOperation("dockerDown.bat","selenium-hub exited with code 0");
+        BaseTest.dockerOperation("dockerDown.bat","shutdown");
     }
 
 
