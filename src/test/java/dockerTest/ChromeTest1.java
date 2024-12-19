@@ -10,7 +10,6 @@ import java.net.URL;
 public class ChromeTest1  extends BaseTest{
 
     @Test
-    //Apurva
     public void test() throws MalformedURLException {
         DesiredCapabilities capabilities =new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
